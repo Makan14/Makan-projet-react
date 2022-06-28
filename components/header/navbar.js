@@ -26,6 +26,7 @@ export const Navbar = () => {
 				width={50}
 				height={50}
 				src={'/assets/icons/navIcons.png'}
+				className={styles.menuBurger} 
 			/>
 		</div>
 	);
