@@ -23,8 +23,8 @@ export const Navbar = () => {
 			</div>
 			{/* <img src="public/burger-bar.png" class="menu-burger" alt="Menu Burger"/>  */}
 			<Image
-				width="50px"
-				height={100}
+				width={50}
+				height={50}
 				src={'/assets/icons/navIcons.png'}
 			/>
 		</div>
