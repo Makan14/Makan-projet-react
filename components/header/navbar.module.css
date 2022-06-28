@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.logo{
+    font-weight: bold;
+}
+
+.navbar{
+    margin: 30px 30px;
+}
+
+.navbar .liste1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.liste1 ul li:hover{
+    text-decoration: underline;
+    color: orangered; 
+}
+
+.liste1 ul li{
+    display: inline-block; 
+    padding: 15px;
+} 
+
+
+.btn{
+    background: orangered;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* **********RESPONSIVE********* */
+
+@media screen and (max-width:900px){
+    
+}
