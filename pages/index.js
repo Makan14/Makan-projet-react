@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { Button } from '../components/Button/Button';
+import { Caroussel } from '../components/header/caroussel';
 import { Navbar } from '../components/header/navbar';
 import styles from '../styles/Home.module.css';
 
@@ -20,8 +21,11 @@ export default function Home() {
 
 			{/* pr afficher ma barre de navigation sur le navigateur internet */} 
 			<Navbar />
+			<Caroussel />
 
-			<main className={styles.main}></main> 
+			<main className={styles.main}>
+				
+			</main> 
 
 			<footer className={styles.footer}></footer>
 		</div>

@@ -1,0 +1,58 @@
+
+
+#carrousel{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+    border: solid 4px #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3); 
+    width: 340px; 
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    top: 30px;
+}
+
+.photo{
+    width: 340px;
+    min-height: 20vh;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
+
+.bouton{
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+/* #g{
+    left: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all .3s ease;
+}
+
+#d{
+    right: 0;
+    opacity: 0.4;
+    transform: rotate(0deg);
+    transition: all .3s ease;
+
+}
+
+#g:hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all .3s ease;
+
+}
+
+#d:hover{
+    transform: rotate(0deg) scale(1.1);
+    opacity: 1;
+    transition: all .3s ease;
+
+} */

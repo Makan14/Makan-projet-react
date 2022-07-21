@@ -3,9 +3,10 @@ import Image from 'next/image';
 import styles from './navbar.module.css';
 // import Menu from './burger-bar.png'
 
+// pr exporter la constante Navbar dns le fichier index.js pr qu elle s affiche dns le navigateur
 export const Navbar = () => {
 	return (
-		<div className={styles.navbar}> 
+		<div className={styles.navbar}>
 			<div className={styles.liste1}>
 				<div className={styles.logo}>
 					<Image 
@@ -31,18 +32,18 @@ export const Navbar = () => {
 			</div>
 			{/* <img src="public/burger-bar.png" class="menu-burger" alt="Menu Burger"/>  */}
 
-			{/* img menu burger */} 
+			{/* img menu burger */}
 			<div className={styles.menuBurger}> 
 				<Image
 					width={20}
-					height={20} 
+					height={20}
 					src={'/assets/icons/navIcons.png'} 
 					
 				/>
 
 			</div>
 
-			{/* img localisation */} 
+			{/* img localisation */}
 			<div className={styles.map}> 
 				<Image 
 					width={25}
