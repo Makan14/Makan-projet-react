@@ -1,30 +1,46 @@
 import react from 'react'
 import styles from "./caroussel.module.css";
 import Image from 'next/image';
+import { Carousel } from 'react-responsive-carousel';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
-export const Caroussel = () =>{ 
-    return(
-
-        <div id={styles.carrousel}> 
+export const Caroussel = () => {
+    return (
+        <div id={styles.carrousel}>
             <div id={styles.container}></div> 
 
-            <Image 
+            <Image
                 width={30}
                 height={30}
                 src={'/assets/icons/back.png'} 
                 className={styles.bouton}
-                id={styles.g}
-            />
+                id={styles.g} 
+            /> 
 
-            <Image 
+            <Carousel autoPlay="true"> 
+                <div>
+                    <img src="assets/icons/ville.jpg"  />
+                    
+                </div>
+                <div>
+                    <img src="assets/icons/desert.jpg" /> 
+                    
+                </div>
+                <div>
+                    <img src="assets/icons/iceberg.jpg" />
+                    
+                </div>
+            </Carousel> 
+
+            <Image
                 width={30}
-                height={30} 
-                src={'/assets/icons/next.png'} 
-                className={styles.bouton} 
-                id={styles.d} 
-			/>  
-        </div>   
-        
+                height={30}
+                src={'/assets/icons/next.png'}
+                className={styles.bouton}
+                id={styles.d}
+            /> 
+        </div>
+
         // document.body.onload=function(){ 
         //     nbr=5;
         //     p=0;
@@ -39,7 +55,7 @@ export const Caroussel = () =>{
         //         container.appendChild(div);
         //     };  
         // };
-        
+
         // g.onClick=function(){
         //     if(p>_nbr+1);
         //     p--;
