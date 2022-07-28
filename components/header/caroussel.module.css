@@ -2,16 +2,18 @@
 
 #carrousel{
     margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 20vh;
-    border: solid 4px #fff;
+    /* min-height: 20vh; */
+    /* border: solid 4px #fff; */
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3); 
-    width: 340px; 
-    position: relative;
+    width: 120%; 
+    position: relative;  
     border-radius: 10px 10px 10px 10px;
     top: 30px;
+    left: -33px;
 }
 
 .photo{

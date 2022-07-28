@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Button } from '../components/Button/Button';
 import { Caroussel } from '../components/header/caroussel';
 import { Navbar } from '../components/header/navbar';
+import { Searchbar } from '../components/header/searchbar';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -21,7 +22,8 @@ export default function Home() {
 
 			{/* pr afficher ma barre de navigation sur le navigateur internet */} 
 			<Navbar />
-			<Caroussel />
+			{/* <Caroussel /> */}
+			<Searchbar/>
 
 			<main className={styles.main}>
 				

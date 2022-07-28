@@ -2,24 +2,24 @@ import react from 'react'
 import styles from "./caroussel.module.css";
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 export const Caroussel = () => {
     return (
-        <div id={styles.carrousel}>
+        <div id={styles.carrousel}> 
             <div id={styles.container}></div> 
 
             <Image
-                width={30}
+                width={30} 
                 height={30}
                 src={'/assets/icons/back.png'} 
                 className={styles.bouton}
                 id={styles.g} 
             /> 
 
-            <Carousel autoPlay="true"> 
+            <Carousel autoPlay="true" showThumbs={false}> 
                 <div>
-                    <img src="assets/icons/ville.jpg"  />
+                    <img src="assets/icons/ville.jpg"  /> 
                     
                 </div>
                 <div>
@@ -27,7 +27,7 @@ export const Caroussel = () => {
                     
                 </div>
                 <div>
-                    <img src="assets/icons/iceberg.jpg" />
+                    <img src="assets/icons/iceberg.jpg" /> 
                     
                 </div>
             </Carousel> 
@@ -35,11 +35,12 @@ export const Caroussel = () => {
             <Image
                 width={30}
                 height={30}
-                src={'/assets/icons/next.png'}
+                src={'/assets/icons/next.png'} 
                 className={styles.bouton}
-                id={styles.d}
+                id={styles.d} 
             /> 
         </div>
+
 
         // document.body.onload=function(){ 
         //     nbr=5;
