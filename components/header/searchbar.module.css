@@ -5,5 +5,11 @@
 
 .btn{
     font-size: 125px; 
+    background: blue;
+    border-radius: 10px 10px 10px 10px;
 }
+
+.input{
+    background: purple;
+} 
 
