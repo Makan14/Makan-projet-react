@@ -4,7 +4,8 @@ import { Button } from '../components/Button/Button';
 import { Caroussel } from '../components/header/caroussel';
 import { Navbar } from '../components/header/navbar';
 import { Searchbar } from '../components/header/searchbar';
-import styles from '../styles/Home.module.css';
+import { Sectiontitle } from '../components/header/sectionTitle';  
+import styles from '../styles/Home.module.css'; 
 
 export default function Home() {
 	return (
@@ -24,6 +25,7 @@ export default function Home() {
 			<Navbar />
 			<Caroussel /> 
 			<Searchbar />
+			<Sectiontitle /> 
 
 			<main className={styles.main}>
 				

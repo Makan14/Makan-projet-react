@@ -1,8 +1,6 @@
 import react from 'react'
 import styles from "./searchbar.module.css"; 
 
-
-
 export const Searchbar = () =>{ 
     return(
         <div className={styles.searchBar}> 
@@ -23,7 +21,7 @@ export const Searchbar = () =>{
                 > 
                     Bouton
                 </button> 
-            </form> */}
+            </form> */} 
 
             <form> 
                 <label>Recherche</label> 
